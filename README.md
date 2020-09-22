@@ -167,7 +167,7 @@ do
   eval ${CMD}
 done
 
-# for the specific contig of sample 3 (Figure 3)
+# for the specific contig of sample 3 (Figure 2)
 VIR_ID=VIRSorter_contig_181_pilon_gene_21_gene_120-18237-95638-cat_4
 CATEGORY=`echo ${VIR_ID} | perl -pe 's/^.*cat_//g'`
 CONTIG_ID=`echo ${VIR_ID} | perl -pe 's/^.*(contig_[0-9]+).*$/$1/g'`
@@ -190,7 +190,7 @@ do
   echo ${GFF}
 done
 ```
-(expected output: VIRSorter_prophages_cat-4.gb.context.hostRight__contig_181_.gff, VIRSorter_prophages_cat-4.gb.context.hostLeft_contig_181_.gff, used for Figure 3A)
+(expected output: VIRSorter_prophages_cat-4.gb.context.hostRight__contig_181_.gff, VIRSorter_prophages_cat-4.gb.context.hostLeft_contig_181_.gff, used for Figure 2A)
 (expected run time: within a few minutes)
 
 ------
@@ -206,7 +206,7 @@ perl check_cat45_clustered_with_IMGVR.pl \
   -m DB/IMGVR_all_Sequence_information.vOUT_N4_hostDefined23906.txt \
   -l DB/IMGVR_all_nucleotides.fna.length > cat45_clustered_with_IMGVR.Host.longestLenDiff.tsv
 ```
-(expected output: cat45_clustered_with_IMGVR.Host.longestLenDiff.tsv, used for Figure 3B)
+(expected output: cat45_clustered_with_IMGVR.Host.longestLenDiff.tsv, used for Figure 2B)
 (expected run time: within a  minutes)
 
 ------
