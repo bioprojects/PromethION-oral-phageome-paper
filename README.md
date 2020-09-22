@@ -1,5 +1,5 @@
 # Custom codes for the PromethION oral phageome paper 
-This page explains custom codes used in the paper "Long-read metagenomics using PromethION uncovers novel oral bacteriophages and interaction with host bacteria " by Koji Yahara , Masato Suzuki, Aki Hirabayashi, Wataru Suda, Masahira Hattori, Yutaka Suzuki, Yusuke Okazaki 
+This page explains custom codes used in the paper "Long-read metagenomics using PromethION uncovers novel oral bacteriophages and their interaction with host bacteria " by Koji Yahara , Masato Suzuki, Aki Hirabayashi, Wataru Suda, Masahira Hattori, Yutaka Suzuki, Yusuke Okazaki 
 
 A figure summarizing the bioinformatic workflow is available [here](http://yahara.hustle.ne.jp/linked_figures/FigS1_workflow_v1.0.pdf) and as a supplementary figure of the paper.
 
